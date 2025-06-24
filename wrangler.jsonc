@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "rwsdk-threejs",
+  "name": "__change_me__",
   "main": "src/worker.tsx",
   "compatibility_date": "2025-05-07",
   "compatibility_flags": ["nodejs_compat"],
@@ -19,7 +19,7 @@
     ]
   },
   "vars": {
-    "WEBAUTHN_APP_NAME": "rwsdk-threejs"
+    "WEBAUTHN_APP_NAME": "__change_me__"
   },
   "migrations": [
     {
@@ -30,14 +30,14 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "rwsdk-threejs-d1",
-      "database_id": "89a566b3-c747-4ea4-8382-8a64dd5d8c45"
+      "database_name": "__change_me__",
+      "database_id": "__change_me__"
     }
   ],
   "r2_buckets": [
     {
       "binding": "R2_BUCKET",
-      "bucket_name": "threejs-rwsdk"
+      "bucket_name": "__change_me__threejs"
     }
   ]
 }
